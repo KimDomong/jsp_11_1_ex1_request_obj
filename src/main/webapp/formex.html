@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>formex</title>
+</head>
+<body>
+	<form action="requestparam.jsp" method="post">
+	이름 : <input type="text" name="name" size="10"><br/><br/>
+	아이디 : <input type="text" name="id" size="10"><br/><br/>
+	비밀번호 : <input type="password" name="pw" size="10"><br/><br/>
+	
+	취미 : <input type="checkbox" name="hobby" value="read">독서
+	 	  <input type="checkbox" name="hobby" value="cook">요리
+	 	  <input type="checkbox" name="hobby" value="run">러닝
+	 	  <input type="checkbox" name="hobby" value="swim">수영
+	 	  <input type="checkbox" name="hobby" value="sleap">수면<br/><br/>
+	
+	전공 : <input type="radio" name="major" value="kor" checked="checked">국문과
+ 		  <input type="radio" name="major" value="eng">영문과
+   		  <input type="radio" name="major" value="math">수학과
+  		  <input type="radio" name="major" value="des">디자인<br/><br/> <!-- design-->
+  		  
+  		  <select name="protocol"  style="width:100px;">
+  		  <option value="http" selected="selected">http</option>
+  		  <option value="ftp">ftp</option>
+  		  <option value="smtp">smtp</option>
+  		  <option value="pop">pop</option><br/><br/>
+  		  </select>
+  		  
+<!--   	  <select id="interest" name="interest" size="5" multiple="multiple">
+			<option value="에스프레소">에스프레소</option>
+			<option value="로스팅">로스팅</option>
+			<option value="생두">생두</option>
+			<option value="원두">원두</option>
+			<option value="핸드드립">핸드드립</option>
+		  </select> -->
+  		  
+  		  <input type="submit" value="전송">
+  		  <input type="reset" value="리셋">
+  		  
+	</form>
+
+</body>
+</html>
